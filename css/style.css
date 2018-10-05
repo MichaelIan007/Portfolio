@@ -1,0 +1,358 @@
+body {
+    background-image: url("img/coding.jpg");
+    width: 100%;
+    height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    Font-family: Sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #55d655;
+    display: inline-flex;
+    width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 50px;
+    height: 40px;
+    padding-top: 13px
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Chicle', cursive;
+    letter-spacing: 2px;
+}
+
+.p1 {
+    font-size: 25px;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.p4 {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+
+}
+
+.hr1 {
+    width: 20%;
+
+}
+
+.html {
+    width: 35px;
+    height: 35px;
+}
+
+.PHP {
+    width: 40px;
+    height: 30px;
+}
+
+nav {
+    float: right;
+    clear: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 15px;
+    position: relative;
+}
+
+nav a {
+    color: #444444;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.lic {
+    list-style: none;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+
+.one {
+    position: fixed;
+    top: 35px;
+    left: 420px;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+}
+
+.one:hover {
+      animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+    background-position: 0%;
+}
+    100%
+    {
+    background-position: 400%;
+}
+}
+
+.two {
+    position: fixed;
+    top: 35px;
+    left: 555px;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+}
+
+.two:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate 
+    {
+    0%
+    {
+    background-position: 0%;
+}
+    100%
+    {
+    background-position: 400%;
+}
+}
+
+.three {
+    position: fixed;
+    top: 35px;
+    left: 690px;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+}
+
+.three:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate 
+    {
+    0%
+    {
+    background-position: 0%;
+}
+    100%
+    {
+    background-position: 400%;
+}
+}
+
+.four {
+    position: fixed;
+    top: 35px;
+    left: 825px;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+}
+
+.four:hover {
+    animation: animate 8s linear infinite;
+}
+@keyframes animate 
+    {
+    0%
+    {
+    background-position: 0%;
+}
+    100%
+    {
+    background-position: 400%;
+}
+}
+
+.five {
+    position: fixed;
+    top: 35px;
+    left: 960px;
+    transform: translate(-50%,-50%);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 20px;
+}
+
+.five:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate 
+    {
+    0%
+    {
+    background-position: 0%;
+}
+    100%
+    {
+    background-position: 400%;
+}
+}
+
+.box1 {
+    width: 675px;
+    padding: 10px;
+    border: 5px solid rgba(255, 0, 0, 0.527);
+    margin: 0;
+    margin-left: 25%;
+    background: rgba(14, 205, 219, 0.692);
+    height: 0 auto;
+}
+  
+    /* Whatsapp Logo Box pop-up */
+.img__description {
+    position: fixed;
+    top: 83%;
+    bottom: 8%;
+    left: 62%;
+    right: 27%;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 1;
+    padding: 0;
+    transition: opacity .2s, visibility .2s;
+}
+  
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+    /* Whatsapp Logo Box pop-up ends */
+
+    /* Contact section main image */
+.logoimage {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+    /* Contact section main image ends */
+
+    /* Contact section Png images */
+.logoimage1 {
+    max-width: 70%;
+    max-height: 70%;
+}
+    /* Contact section Png images ends */
